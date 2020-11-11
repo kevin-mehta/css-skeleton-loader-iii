@@ -31,7 +31,7 @@
 
 .prod--wrapper {
   display: flex;
-  width: 100%;
+  width: 95%;
   margin: 32px 0;
   border: 1px solid #b6b6b6;
   border-radius: 6px;
@@ -51,7 +51,7 @@
 }
 
 .prod--wrapper .prod--img {
-  width: 10%;
+  width: 20%;
   margin: 0 15px;
 }
 
