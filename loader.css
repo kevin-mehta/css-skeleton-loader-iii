@@ -13,7 +13,7 @@
   background-repeat: repeat-y;
   background-size: 50px 200px, /* highlight */ 100% 200px;
   background-position: 0 0, /* highlight */ 0 0;
-  animation: shine 1.5s infinite;
+  animation: shine 3.5s infinite;
 }
 
 @keyframes shine {
