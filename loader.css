@@ -18,10 +18,10 @@
       rgba(255, 255, 255, 0.5) 50%,
       rgba(255, 255, 255, 0) 80%
     ),
-    linear-gradient(lightgray 100%, transparent 0);
+    lightgray;
   background-repeat: repeat-y;
-  background-size: 50px 200px, 100% 200px;
-  background-position: 0 0, 0 0;
+  background-size: 50px 200px;
+  background-position: 0 0;
 }
 .skeleton-loader:empty {
   width: 100%;
@@ -39,12 +39,11 @@
   background-repeat: repeat-y;
   background-size: 50px 500px;
   background-position: 0 0;
-  animation: shine 1.5s infinite;
-  left: -150px;
+  animation: shine 1s infinite;
 }
 
 @keyframes shine {
   to {
-    background-position: 100% 0, /* move highlight to right */ 0 0;
+    background-position: 100% 0;
   }
 }
